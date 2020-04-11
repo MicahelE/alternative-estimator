@@ -1,6 +1,6 @@
 <?php
 
-f$data= array( "region"=> array("name"=>"Africa", "avgAge"=>19.7, "avgDailyIncomeInUSD"=>5, "avgDailyIncomePopulation"=>0.71),"periodType"=> "days",
+$data= array( "region"=> array("name"=>"Africa", "avgAge"=>19.7, "avgDailyIncomeInUSD"=>5, "avgDailyIncomePopulation"=>0.71),"periodType"=> "days",
 "timeToElapse"=> 58,
 "reportedCases"=> 674,
 "population"=> 66622705,
