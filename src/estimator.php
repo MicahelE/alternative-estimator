@@ -14,10 +14,10 @@ function periodType($data)
         return intdiv($data["timeToElapse"],3);
     break;
     case "weeks":
-        return intdiv($data["timeToElapse"], 3)*7;
+        return intdiv($data["timeToElapse"]*7, 3);
     break;
     case "months":
-        return intdiv($data["timeToElapse"], 3)*30;
+        return intdiv($data["timeToElapse"]*30, 3);
     break;
 }
 }
