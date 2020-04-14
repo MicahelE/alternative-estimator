@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^api/v1/on-covid-19/logs$ src/estimator.php [L]
+RewriteRule ^api/v1/on-covid-19/json$ src/estimator.php [L]
+RewriteRule ^api/v1/on-covid-19/$ src/estimator.php [L]
+RewriteRule ^api/v1/on-covid-19/xml$ src/estimator.php [L]
+
+Options All -Indexes
